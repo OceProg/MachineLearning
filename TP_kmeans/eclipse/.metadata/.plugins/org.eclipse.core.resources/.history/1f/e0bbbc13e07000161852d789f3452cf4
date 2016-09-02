@@ -1,6 +1,0 @@
-
-
-object nameGenerator {
-  val maj = ('A' to 'Z')
-  print 
-}

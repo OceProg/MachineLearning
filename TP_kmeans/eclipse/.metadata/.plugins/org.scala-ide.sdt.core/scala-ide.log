@@ -1493,3 +1493,253 @@ when weaving
 2016-09-02 11:47:10,605 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2016-09-02 11:47:10,605 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2016-09-02 11:47:10,606 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:36:31,379  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:36:31,379  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:36:32,654 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:36:32,655 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:36:32,655 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:37:00,264  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:37:00,265  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:37:36,445  WARN [Worker-56] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:37:36,445  WARN [Worker-56] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:38:40,932  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:38:40,932  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:38:57,664  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:38:57,664  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:39:18,268 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:39:18,269 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:39:23,940  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:39:23,940  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:40:06,539  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:40:06,539  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:40:14,238  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:40:14,239  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:40:34,751  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:40:34,751  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:41:08,419  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:41:08,419  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:41:14,371  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:41:14,371  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:41:15,754 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:41:15,754 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:41:15,754 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:44:49,620  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:44:49,621  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:44:55,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1465
+2016-09-02 12:44:55,295  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1465
+2016-09-02 12:45:09,324 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:45:09,324 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:45:09,324 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 12:45:10,466  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1465
+2016-09-02 12:45:10,466  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1465
+2016-09-02 12:45:18,573  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1481
+2016-09-02 12:45:18,574  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1481
+2016-09-02 12:45:20,236  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:45:20,237  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:45:34,679  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1483
+2016-09-02 12:45:34,680  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1483
+2016-09-02 12:46:58,851  WARN [Worker-56] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:46:58,851  WARN [Worker-56] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:47:06,129  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:47:06,130  WARN [Worker-54] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:47:13,540  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:47:13,540  WARN [Worker-55] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:47:21,006  WARN [Worker-59] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:47:21,006  WARN [Worker-59] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:47:29,446  WARN [Worker-59] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:47:29,446  WARN [Worker-59] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:47:49,519  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:47:49,519  WARN [Worker-58] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:48:13,078  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:48:13,079  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 12:48:32,139  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 12:48:32,146  WARN [Worker-51] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:29:16,965  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:29:16,966  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:29:47,218  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:29:47,218  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:29:58,835  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:29:58,835  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:30:07,698  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:30:07,698  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:30:50,865 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:30:50,865 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:30:50,865 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:30:59,087  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:30:59,088  WARN [Worker-75] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:31:17,251  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:31:17,251  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:32:50,977  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:32:50,977  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:46:37,436  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:46:37,436  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:52:30,517 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:52:30,517 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:52:30,517 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:54:28,874  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 14:54:28,874  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 14:54:39,310 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:54:39,310 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 14:54:39,310 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:02:39,978  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:02:39,978  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:02:45,047  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:02:45,047  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:02:58,674  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:02:58,674  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:03:00,153 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:03:00,153 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:03:00,153 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:07:01,623 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:07:01,623 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:07:01,623 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:08:21,649  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:08:21,649  WARN [Worker-76] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:10:58,625  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:10:58,625  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:12:16,066  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:12:16,066  WARN [Worker-80] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:12:25,028 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:12:25,028 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:12:25,028 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:12:29,762  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:12:29,762  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:14:01,008  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:14:01,010  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:14:09,231  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:14:09,232  WARN [Worker-82] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:15:57,078  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:15:57,079  WARN [Worker-74] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:15:58,721 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:15:58,721 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:15:58,721 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:16:33,914  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 15:16:36,127  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:16:36,127  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:16:57,259  WARN [Worker-84] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:16:57,259  WARN [Worker-84] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:17:41,605  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 15:17:43,078  WARN [Worker-87] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:17:43,078  WARN [Worker-87] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:27:06,349 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:27:06,735 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:27:06,735 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:27:06,735 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:27:09,648  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:27:09,649  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:28:16,054  WARN [Worker-88] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:28:16,055  WARN [Worker-88] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:28:49,720  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:28:49,720  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:29:02,746  WARN [Worker-89] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:29:02,746  WARN [Worker-89] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:30:47,237 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:30:47,237 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:30:47,237 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:31:09,358  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:31:09,358  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:31:56,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:31:56,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:31:56,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:31:59,015  WARN [Worker-93] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:31:59,015  WARN [Worker-93] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:33:16,377  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:33:16,377  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:33:27,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:33:27,879 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:33:29,740  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:33:29,740  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:33:43,165  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:33:43,165  WARN [Worker-83] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:33:52,280  WARN [Worker-88] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:33:52,280  WARN [Worker-88] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:33:54,763 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:33:54,763 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:33:54,763 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:34:04,052  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:34:04,052  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:34:22,111  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 15:34:26,182  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:34:26,182  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:38:22,891  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:38:22,891  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:40:14,901  WARN [Worker-95] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:40:14,901  WARN [Worker-95] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:41:02,417  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:41:02,417  WARN [Worker-86] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:45:52,469 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:45:52,523 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:45:52,524 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 15:46:01,041  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:46:01,147  WARN [Worker-90] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 15:47:20,248  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 15:47:20,249  WARN [Worker-91] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:07:05,884  WARN [Worker-103] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:07:05,884  WARN [Worker-103] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:07:07,100 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:07:07,100 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:07:07,100 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:07:35,568  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:07:35,568  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:07:37,198 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:07:37,199 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:07:37,199 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:09:31,101  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:09:31,101  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:10:03,136  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:10:03,138  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:11:14,171  WARN [Worker-103] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:11:14,171  WARN [Worker-103] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:11:24,795  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:11:24,795  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:15:05,051  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:15:05,051  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:21:14,952 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:21:14,952 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:21:14,952 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:26:31,187  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:26:31,195  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:26:48,738  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:26:48,739  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:28:45,431  WARN [Worker-106] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:28:45,432  WARN [Worker-106] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:30:02,887 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:30:03,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:30:03,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:30:03,715 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:30:04,131  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:30:04,131  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:30:21,249  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:30:21,249  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:31:51,105  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:31:51,105  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:32:14,243  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:32:14,244  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:33:08,843  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:33:08,843  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:33:18,797  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:33:18,797  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:35:58,887  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:35:58,887  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:36:04,836 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:36:04,836 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 16:48:53,638  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:48:53,638  WARN [Worker-102] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:48:54,037  WARN [Java indexing] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:48:54,037  WARN [Java indexing] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:49:25,953  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 16:49:50,153  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 16:50:28,638  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:50:28,639  WARN [Worker-105] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 16:51:29,272  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 16:51:29,272  WARN [Worker-100] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 17:42:17,386 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 17:42:17,386 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 17:42:17,386 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 18:15:16,675  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 18:15:26,097  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 18:15:31,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 18:15:31,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 18:15:31,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 18:15:32,161  WARN [Worker-120] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 18:15:32,161  WARN [Worker-120] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
