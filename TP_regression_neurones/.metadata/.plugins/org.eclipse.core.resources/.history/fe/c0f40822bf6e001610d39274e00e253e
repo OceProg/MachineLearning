@@ -1,0 +1,104 @@
+import scala.io.Source
+import scala.math._
+import scala.util.control.Breaks._
+import java.io._
+import smile._
+import smile.data._
+import smile.shell._
+import smile.classification._
+import javax.swing.JFrame
+import javax.swing.JPanel
+import smile.plot.BarPlot
+import smile.plot.Palette
+import scala.io.Source
+import smile.plot.ScatterPlot
+
+import smile.regression.ols
+
+import java.awt.Color;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import smile.plot.Line;
+import smile.plot.LinePlot;
+import smile.plot.PlotCanvas;
+import smile.validation.RMSE
+import scala.tools.asm.Label
+import java.awt.font.NumericShaper.Range
+import scala.collection.immutable.Range
+
+object tp_reg1 {
+
+  //  def scatterPlot1(data: Array[Array[Double]]): Unit = {
+  //    val scatplot = smile.plot.ScatterPlot.plot(data, '.')
+  //    scatplot.setTitleColor(Palette.RED)
+  //    val framesc = new JFrame("Scatterplot");
+  //    framesc.setLocationRelativeTo(null)
+  //    framesc.setLocationRelativeTo(null);
+  //    framesc.getContentPane().add(scatplot);
+  //    framesc.setSize(800, 500);
+  //    framesc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  //    framesc.setVisible(true)
+  //  }
+
+  def main(args: Array[String]): Unit = {
+    val path = "/home/user14/Documents/MachineLearning/DataTP/"
+    val file_name1 = "ordiplus.txt"
+    val ordi = scala.io.Source.fromFile(path + file_name1).getLines.filter(!_.isEmpty()).map(_.split("\\t"))
+    //ordi.foreach { x => println(x(0)+" "+x(1))}
+    var data = ordi.map { x => Array(x(0).toDouble, x(1).toDouble) }.toArray
+    val x = data.map { x => Array(x(0).toDouble) }.toArray
+    val y = data.map { x => x(1).toDouble }.toArray
+
+    //linear regression
+    val model = ols(x, y)
+    println(model)
+    //prediction
+    val pred = x.map { n => model.predict(n) }
+    // predicted points
+    val coordpred = data.map { x => Array(x(0).toDouble) } zip pred map (x => Array[Double](x._1(0), x._2))
+    //    val residu = data.map { x => 
+    //      coordpred.map { y => x(1).toDouble-y(1).toDouble }
+    //    }.flatten
+    //    val coodresidu = data.map { x => Array(x(0).toDouble, 0.0) } zip residu map (x => Array[Double](x._1(0), x._2))
+
+
+
+    
+
+    var res = model.residuals()
+    val coordres = data.map { x => x(0).toDouble } zip res map (x => Array[Double](x._1, x._2))
+    //println("residu =")
+    //res.foreach(println)
+   
+    //plot
+    val window = smile.plot.plot(data, 'S')
+    window.canvas.setAxisLabel(0, "PC")
+    window.canvas.setAxisLabel(1, "quantite")
+    window.canvas.line(coordpred, Line.Style.SOLID, Color.GREEN).setLegend('p')
+    window.canvas.line(data, Line.Style.SOLID, Color.RED).setLegend('d')
+    window.canvas.line(coordres, Line.Style.DASH, Color.BLACK).setLegend('r')
+    
+    var rmse1: RMSE = new RMSE()
+    var result = rmse1.measure(y, pred)
+    println("rmse = " + result)
+    
+    println("time for 7 components ="+model.predict(x(8))+" with error = "+model.error())
+    
+    //(0 to 10).foreach { n => println(model.predict(x(n)) )}
+    var res_mean = res.reduce(_+_)/res.size
+    var res_sd = sqrt((res.map { x => (x-res_mean)*(x-res_mean) }.reduce(_+_))/res.size)
+    var res_what = (res.map { x => abs(x-res_mean)}.reduce(_+_))/res.size
+    res.foreach(println)
+//    println("res_mean = "+res_mean)
+//    println("res_sd = "+res_sd)
+//    println("res_what = "+res_what)
+    
+    
+    
+
+  }
+
+}

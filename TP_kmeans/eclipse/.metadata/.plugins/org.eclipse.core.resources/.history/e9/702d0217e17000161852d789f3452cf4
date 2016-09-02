@@ -1,0 +1,13 @@
+
+
+object nameGenerator {
+  def main(args: Array[String]): Unit = {
+    val maj = ('A' to 'Z')
+    val min = ('a' to 'z')
+    val vowel_maj = ('a', 'e', 'i', 'o', 'u', 'y')
+    val vowel_min = ('A', 'E', 'I', 'O', 'U', 'Y')
+    val conso_in = 
+    println(maj)    
+  }
+  
+}

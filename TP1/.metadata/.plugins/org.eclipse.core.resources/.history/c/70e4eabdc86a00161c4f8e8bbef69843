@@ -1,0 +1,33 @@
+import scala.io.Source
+import scala.util.control.Breaks._
+import java.io._
+
+object ml_tp1_main {
+
+  def printToFile(f: java.io.File)(op: java.io.PrintWriter => Unit) {
+    val p = new java.io.PrintWriter(f)
+    try { op(p) } finally { p.close() }
+  }
+
+  def main(args: Array[String]): Unit = {
+    val path = "/home/user14/Documents/MachineLearning/DataTP/"
+    val csv = Source.fromFile(path + "loansData.csv")
+    val csv_clean = csv.getLines().toList map { _.replaceAll("%", "") } map { _.replaceAll("/"", "") }
+    //val csv_clean = csv.toString().replaceAll("%","").toIterator
+    //csv.toString().replaceAll("""""","")
+    //println(csv_clean.next())
+    //    var i = 0
+    //    for ( l <- csv_clean){
+    //      println(l)
+    //      i+=1
+    //      //if (i>3) break
+    //    }
+    //val csv_clean = csv.map { x => ??? }
+    csv_clean.foreach { x => println(x)}
+
+//    printToFile(new File("/home/user14/Documents/MachineLearning/TP1/ml_tp1/tmp_out")) { p =>
+//      csv_clean.foreach(p.println)
+//    }
+
+  }
+}

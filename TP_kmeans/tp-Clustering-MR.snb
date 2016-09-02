@@ -1,0 +1,146 @@
+{
+  "metadata" : {
+    "name" : "tp-Clustering-MR",
+    "user_save_timestamp" : "1970-01-01T01:00:00.000Z",
+    "auto_save_timestamp" : "1970-01-01T01:00:00.000Z",
+    "language_info" : {
+      "name" : "scala",
+      "file_extension" : "scala",
+      "codemirror_mode" : "text/x-scala"
+    },
+    "trusted" : true,
+    "customLocalRepo" : null,
+    "customRepos" : null,
+    "customDeps" : [ "com.github.haifengl % smile-scala_2.11 % 1.1.0" ],
+    "customImports" : null,
+    "customArgs" : null,
+    "customSparkConf" : null
+  },
+  "cells" : [ {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "# Clustering : k-means"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "## Génération des données\n\n* Génération de 1000 données tridimensionnelles dans 5 groupes :\n\n  - `KMeansDataGenerator.generateKMeansRDD(sc, numPoints, k, d, r, numPartitions)`\n    * `sc` : le SparkContext concerné\n    * `numPoints` : le nombre total de données générées\n    * `k` : le nombre de centres (donc de groupes dans les données générées)\n    * `d` : la dimension des données\n    * `r` : écart-type pour la loi normale qui génère les centres\n    * `numPartitions` : nombre de partitions pour le RDD généré (2 par défaut)"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "  **Remarque :**\nFixer `numPartitions` à 1 pour faciliter l’enregistrement des fichiers à visualiser. \n`donneesGenerees` est de type `RDD[Array]`, nous le transformons en données de type `RDD[Vector]` exigé par l’implémentation de K-means."
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "* Sauvegarder les données en mémoire et dans un fichier texte. Afficher les premières lignes"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "* Visualiser les données"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "## K-means avec initialisation par K-means||\n\nSpark MLlib propose une implémentation du K-means. \nL'initialisation des centres est réalisée par l’algorithme parallèle k-means||.\n\nLa classification est obtenue en appelant KMeans.train, avec les paramètres suivants :\n* `data` : données à classifier, sous forme de RDD[Vector]\n* `k` : nombre de clusters\n* `maxIterations` : nombre maximal d’itérations ; arrêt de l'exécution lorsque les centres sont stabilisés (à epsilon: 1e-4 près) ou `maxIterations` est atteint ; `epsilon` peut être modifié en appelant KMeans.epsilon\n* `runs` : nombre d'exécutions (1 par défaut) ; c'est le meilleur modèle qui est retourné\n* `initializationMode` : mode d'initialisation des centres, soit random soit k-means|| (par défaut)\n* `seed` : initialisation du générateur de nombres aléatoires"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Appliquer le K-means sur les données générées précédemment** avec les paramètres suivant : `k = 5, maxIterations = 200`"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Evaluer le clustering par la somme des inerties intra-classe** (sum of squared distances of points to their nearest center)"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "** Trouver l'indice du cluster pour chaque donnée (les `bmus`)**"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "** Enregistrer ces indices dans un fichier texte**"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "## Visualisation"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Visualiser** le résultat du clustering précédent (ne fermer pas la fenêtre !)"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Réalisez une nouvelle fois** le clustering des mêmes données avec K-means en 5 clusters. \nVisualisez les résultats. \nQue constatez-vous ?"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Réalisez deux fois** le clustering des mêmes données avec k-means en 5 clusters mais avec une **initialisation random** plutôt que `K-means||`. \nVisualisez les résultats. \nQue constatez-vous ?"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Réalisez le clustering des mêmes données avec k-means et une initialisation `K-means||` en 4 clusters et ensuite en 6 clusters.**  \nVisualisez à chaque fois les résultats. \nQue constatez-vous ?"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "**Multipliez par 3 les données sur une des dimensions initiales.**\nRéalisez le clustering des nouvelles données avec k-means (et initialisation par k-means||) en 5 clusters. \nVisualisez les résultats. Que constatez-vous ?"
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : "Visualiser le résultat du clustering"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true
+    },
+    "cell_type" : "markdown",
+    "source" : "**Réalisez la classification des données Spambase Data Set issues de l’archive de l’UCI.** \nComment pré-traiter les données et pourquoi ? \nCombien de groupes rechercher ? \nVisualisez ensuite leurs projections sur des groupes de 3 variables."
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true
+    },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : { },
+    "cell_type" : "markdown",
+    "source" : ""
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ ]
+  } ],
+  "nbformat" : 4
+}

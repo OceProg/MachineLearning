@@ -1,0 +1,101 @@
+
+#####################Régression ####################################
+#Réparation d’ordinateurs
+
+La compagnie Micropomme est spécialisée dans la réparation d’ordinateurs de bureau. Elle désire
+prévoir le nombre de techniciens à embaucher dans le futur. Un des éléments de cette procédure est
+d’analyser le temps passé pour réparer un ordinateur. Ce temps de service dépend du nombre de
+composants électroniques qui doivent être remplacés.
+
+A) Dans un premier temps, on dispose d’un jeu de 14 données présentées dans le fichier **ordi.txt**.
+
+* Une relation linéaire entre ces deux variables semble-t-elle adaptée ?
+oui
+
+* Déterminer la droite de régression linéaire et calculer R2 et la RMS. Tracer le graphe des résidus
+réduits. Commenter les résultats obtenus.
+R2 = 0.9874
+
+
+* En moyenne combien de temps prendra la réparation d’un ordinateur sur lequel il faut changer 7
+composants. Donner l’écart-type de cette estimation.
+112 min +- 5.4 min
+
+* Donner une estimation minimale et maximale du temps mis par un technicien pris au hasard
+pour réparer un ordinateur sur lequel il faut changer 7 composants.
+107 - 117
+
+* Pour augmenter la rentabilité, la direction estime que 12 minutes sont suffisantes pour remplacer
+un composant. Cela vous semble-t-il compatible avec les données ?
+predicted: 19.6 +- 5.4 -> minimum 14.2 donc non.
+
+B) Pour élargir l’étude, des données supplémentaires sont collectées (fichier **ordiplus.txt** pour la base
+étendue)
+
+* Refaire l’analyse par régression linéaire : R2, RMS, toutes les représentations graphiques et le test
+de linéarité. Que peut-on observer ? Que peut-on en déduire ? Plus généralement que peut-on en
+conclure sur la régression linéaire ?
+R2 = 0.90
+RSE = 18.75
+RMSE = 17.96
+R2 bon, mais RSE important -> régression linéaire pas terrible
+La reg lin peut sembler bonne et ne pas l'êre
+
+* Proposer une méthode pour que l’analyse redevienne correcte (penser à une transformation des
+données). Donner et commenter les résultats.
+Passer au logarithme?
+
+#################################################################  
+#Audience télévisuelle
+
+Le succès d’une émission télévisuelle peut, dans une certaine mesure, être connu par un indice d’audience. Celui-ci est un nombre allant de 1 à 10. Cet indice est très important pour les responsables des chaînes puisqu’il motive l’intérêt des publicitaires et a donc un impact important sur les rentrées financières. Il est ainsi très utile de tenter de déterminer les facteurs pouvant l’influencer. Pour les journaux télévisés, en plus des facteurs évidents (attractivité du présentateur, légitimité de la chaîne, éditions spéciales, …), le programme précédant immédiatement le journal (le programme d’appel) est également susceptible de jouer un rôle : le taux d’audience du journal dépend en partie de l’indice d’audience du programme d’appel. Pour tester cette théorie, un échantillon sur diverses chaînes régionales et nationales américaines a été pris au hasard (fichier tele.txt).
+
+
+#####Fichiers de données :
+* tele.txt : Contient de 2 colonnes de 30 taux d’audience :
+
+* la 1ère colonne correspond à l’indice d'écoute du programme d'appel,
+
+* la seconde, à l’indice d'écoute du journal télévisé.
+
+
+1. Tracer l’indice d’audience du journal en fonction de l’indice d’audience du programme d’appel. Y-a-t-il dépendance ? De quelle forme ?
+
+Regression :
+* Déterminer la droite de régression linéaire et en donner le coefficient de détermination.
+intercept = 1.70
+var = 0.67
+RSE = 1.40
+R2 = 0.39
+* Afficher les points et la droite de régression
+* Commenter ces résultats
+Points extremes faussent regression.
+Regression pas terrible vu le R2.
+* Tracer le graphe des résidus réduits. Quels indices permettent de remettre en cause la validité du
+modèle ?
+Mise en valeur des points extremes
+* Après avoir enlevé les points qui vous semblent « extrêmes», refaire l’analyse de la régression
+linéaire. Que peut-on en conclure ?
+intercept = 3.71
+var = 0.26
+RSE = 0.93
+R2 = 0.16
+Regression moins penchee puisque les extremes sont filtres.
+RSE mieux, R2 moins bien.
+
+* Commenter ces résultats
+Il faut nettoyer les donnees avant de faire des regressions!
+
+#################################################################  
+
+########################## RESEAUX DE NEURONES#############################
+
+L’objet de ce TP est l’utilisation de perceptrons multicouches à des fins de classification. Ce TP
+comporte 2 Parties :
+- Travail sur des données  simulées en dimension 2 et un nombre Q de classes.
+- Utilisation de données réelles : Les Iris de Fisher ; problème à 3 classes en dimension 4.
+D’autres techniques comme les réseaux de neurones RBF (radial basis function), les matrices de confusion ou la validation
+croisée devront être également mis en oeuvre au cours de ce TP, à des fins de comparaison ou de
+complément.
+- reproduisez les expérimentations avec seulement les 2 dernières variables, que déduisez-vous ?
+

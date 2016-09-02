@@ -1,0 +1,75 @@
+import scala.io.Source
+import scala.math._
+import java.io._
+import smile._
+import smile.data._
+import smile.shell._
+import smile.classification._
+import javax.swing.JFrame
+import javax.swing.JPanel
+import smile.plot.BarPlot
+import smile.plot.Palette
+import scala.io.Source
+import smile.plot.ScatterPlot
+
+import smile.regression.ols
+
+import java.awt.Color;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import smile.plot.Line;
+import smile.plot.LinePlot;
+import smile.plot.PlotCanvas;
+import smile.validation.RMSE
+
+object tp_reg_tele {
+  
+  def main(args: Array[String]): Unit = {
+    val path = "/home/user14/Documents/MachineLearning/DataTP/"
+    val file_name1 = "tele.txt"
+    val source = scala.io.Source.fromFile(path + file_name1).getLines.filter(!_.isEmpty()).map(_.split("\\s")) 
+    val data = source.map { x => Array(x(0).toDouble, x(1).toDouble) }.toArray
+    val data_filtered = source.map { x => Array(x(0).toDouble, x(1).toDouble) }.filterNot { x => x(1) <= 2.0 }.toArray
+    val data_filtered2 = data.filterNot { x => x(1) <= 2.0 && >= 8.0 }
+    val x = data.map { x => Array(x(0).toDouble) }.toArray
+    val y = data.map { x => x(1).toDouble }.toArray
+    val y_filtered = data.map { x => x(1).toDouble }.filterNot { x => x <= 2 && x>= 8 }.toArray
+    //var data_filtered = (x.flatten.map { x => y.map { y => Array(x,y) }}).flatten
+    
+    
+    //linear regression
+    val model = ols(x, y)
+    println(model)
+    //prediction
+    val pred = x.map { n => model.predict(n) }
+    // predicted points
+    val coordpred = data.map { x => Array(x(0).toDouble) } zip pred map (x => Array[Double](x._1(0), x._2))
+
+    // calcul residus
+    var res = model.residuals()
+    val coordres = data.map { x => x(0).toDouble } zip res map (x => Array[Double](x._1, x._2))
+    
+    println("a")
+    println("data size = "+data.size)
+    data.foreach { x => println(x(0)+" "+x(1))}
+    println("data_filtered2 size = "+data_filtered2.size)
+    data_filtered2.foreach { x => println(x(0)+" "+x(1))}
+    //println(data_filtered2)
+    println("b")
+    
+    //plot
+//    val window = smile.plot.plot(data_filtered, 'S')
+//    window.canvas.setAxisLabel(0, "appel_audience")
+//    window.canvas.setAxisLabel(1, "jt_audience")
+    //window.canvas.points(data, Color.RED)
+    //window.canvas.points(data_filtered, Color.RED)
+    //window.canvas.line(coordpred, Line.Style.SOLID, Color.GREEN).setLegend('p')
+    //window.canvas.line(coordres, Line.Style.DASH, Color.BLACK).setLegend('r')
+    //window.canvas.
+    
+  }
+  
+}

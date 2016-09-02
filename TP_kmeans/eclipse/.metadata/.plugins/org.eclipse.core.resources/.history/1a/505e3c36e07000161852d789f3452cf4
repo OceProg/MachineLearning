@@ -1,0 +1,9 @@
+
+
+object nameGenerator {
+  def main(args: Array[String]): Unit = {
+    val maj = ('A' to 'Z')
+    println(maj)    
+  }
+  
+}

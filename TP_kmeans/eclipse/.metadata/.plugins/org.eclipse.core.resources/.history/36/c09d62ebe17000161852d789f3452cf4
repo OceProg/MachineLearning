@@ -1,0 +1,14 @@
+
+
+object nameGenerator {
+  def main(args: Array[String]): Unit = {
+    val maj = List('A' to 'Z')
+    val min = List('a' to 'z')
+    val vowel_maj = List('A', 'E', 'I', 'O', 'U', 'Y')
+    val vowel_min = List('a', 'e', 'i', 'o', 'u', 'y')
+    val conso_maj = maj.filterNot(vowel_maj.toSet)
+    val p = vowel_maj.toSet
+    println(p)    
+  }
+  
+}

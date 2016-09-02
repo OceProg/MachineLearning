@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+#################################################################  
+
+######################### K-Means  ########################################
+
+Soit un ensemble de données d’apprentissage non labellisées en dimension 2 contenues dans le fichier
+Data1.mat On dispose pour un ensemble d’exemples à classer de deux caractéristiques. Cet ensemble
+d'apprentissage comprend 132 exemples qui ont été simulées selon 3 gaussiennes.
+
+* Expliquer le principe de fonctionnement, la nature et les différentes étapes d’un algorithme de kmoyennes.x
+
+
+* Exécuter le programme Kmeans pour effectuer une classification non supervisée des données par un algorithme des k-moyennes.  En faisant varier le nombre de groupements réalisés par l’algorithme (k=2, 3, 5, 10, 15, 20), étudier les
+variations de « l’inertie intra ». Que remarquez-vous ? Qu’en pensez-vous ? On fera une figure pour chaque cas et un tableau pour justifier les résultats, on indiquera la cardinalité de chaque groupe et la table de confusion.
+
+
+* Frontière de décision :
+On vous demande de représenter les frontières de décision dans le cas qui présente le moins de formes fortes de la question 3° précédente. Pour cela, vous aurez besoin de définir un ensemble constitué des points d’un maillage 2D; on vous propose les points de -1.8 à 1.8 par pas de 0.05 par exemple. 
+
+
+* On appelle forme forte les éléments de l’ensemble d’apprentissage qui ont toujours été classés ensemble au cours de plusieurs classifications (initialisations différentes). Ecrire un script qui permet de trouver le nombre de formes fortes et la cardinalité de ces formes. Déterminer les formes fortes pour quelques valeurs de k (k=2, 3, 4, 5 par exemple), et faire 25 essais à chaque fois.
+
+
+
+#########################################################################
+//  Quelques exemple 
+
+val chemin =""
+val tele = read.table(chemin+"ordi.txt", Some((new NumericAttribute("y"), 1)))
+val (x,y)=tele.unzipDouble
+
+
+val coord=x.map(x=>x(0)) zip y  map (x=>Array[Double](x._1,x._2))
+val window =plot(coord,'*')
+window.canvas.setAxisLabels("x : nombre de composants à remplacer","la seconde à la durée de l'opération en mn")

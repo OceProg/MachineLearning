@@ -1,0 +1,6 @@
+
+
+object nameGenerator {
+  val maj = ('A' to 'Z')
+  println(maj)
+}

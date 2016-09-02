@@ -1,0 +1,86 @@
+import scala.io.Source
+import scala.util.control.Breaks._
+import java.io._
+import smile._
+import smile.data._
+import smile.shell._
+import smile.classification._
+import javax.swing.JFrame
+import javax.swing.JPanel
+import smile.plot.BarPlot
+import smile.plot.Palette
+import scala.io.Source
+import smile.plot.ScatterPlot
+import scala.collection.parallel.ParIterableLike.Foreach
+import scala.collection.parallel.ParIterableLike.Foreach
+
+object ml_tp1_main {
+
+  def printToFile(f: java.io.File)(op: java.io.PrintWriter => Unit) {
+    val p = new java.io.PrintWriter(f)
+    try { op(p) } finally { p.close() }
+  }
+
+  def csvCleaner(f: java.io.File): List[String] = {
+    val csv = Source.fromFile(f) //.drop(1)
+    val csv_clean = csv.getLines().toList map {
+      _.replaceAll("%", "")
+    } map {
+      _.replaceAll("\"", "")
+    } map {
+      _.replaceAll("months", "")
+    } map { _.replaceAll(",NA", ",0") }
+    return csv_clean
+  }
+
+  def main(args: Array[String]): Unit = {
+    val path = "/home/user14/Documents/MachineLearning/DataTP/"
+    val file_name1 = "loansData.csv"
+    val csv_clean1 = csvCleaner(new File(path + file_name1))
+
+    val file_name2 = "loanf.csv"
+    val csv_clean2 = csvCleaner(new File(path + file_name2))
+    //csv_clean1.foreach { x => println(x) }
+
+//    val line = csv_clean1.drop(1).map { c => c.split(",").toList }
+//    val tabplot = line.map { x => x(2).toDouble }.toArray
+//
+//    print(tabplot)
+//
+//    val bar = smile.plot.BoxPlot.plot(tabplot)
+//
+//    bar.setTitleColor(Palette.RED)
+
+//    val frame = new JFrame("Box Plot");
+//
+//    frame.setLocationRelativeTo(null)
+//    frame.setLocationRelativeTo(null);
+//    frame.getContentPane().add(bar);
+//    frame.setSize(1000, 500);
+//    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//    frame.setVisible(true)
+    
+    val line1 = csv_clean1.drop(1).map { c => c.split(",").toList }
+    val line2 = csv_clean2.drop(1).map { c => c.split(",").toList }
+    csv_clean1.foreach { x1 =>
+      csv_clean2.foreach { x2 => (x1(2).toDouble,x2(2).toDouble) }  
+    }
+    
+    val scatplot = smile.plot.ScatterPlot.plot(tabplot)
+    val bar = smile.plot.BoxPlot.plot(tabplot)
+    bar.setTitleColor(Palette.RED)
+    val frame = new JFrame("Box Plot");
+
+    frame.setLocationRelativeTo(null)
+    frame.setLocationRelativeTo(null);
+    frame.getContentPane().add(bar);
+    frame.setSize(1000, 500);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setVisible(true)
+
+    //    printToFile(new File("/home/user14/Documents/MachineLearning/TP1/ml_tp1/cleaned_"+file_name)) { p =>
+    //      csv_clean1.drop(1).foreach(p.println)
+    //    }
+
+  }
+}

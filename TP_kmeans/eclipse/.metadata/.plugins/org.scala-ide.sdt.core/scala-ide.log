@@ -1,0 +1,1495 @@
+2016-09-01 10:53:08,754 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-01 10:53:22,407  WARN [ModalContext] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:53:22,412  WARN [ModalContext] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:53:23,519  WARN [Worker-16] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:53:23,531  WARN [Worker-16] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:53:55,662 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-01 10:54:26,898  WARN [main] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:54:26,898  WARN [main] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:54:27,834 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:28,031 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:28,034 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:28,043 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:28,433 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:29,162 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:29,433 ERROR [main] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:54:30,609  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:54:30,609  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:54:30,968  WARN [Java indexing] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:54:30,969  WARN [Java indexing] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:54:32,661  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:54:32,661  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:54:34,204 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-01 10:54:48,839 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-01 10:56:07,428  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:56:07,428  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:56:20,284  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:56:20,284  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:57:47,391 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:57:47,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:57:47,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 10:58:09,068  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:58:09,068  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 10:59:32,421  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 10:59:32,421  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:00:16,503  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:00:16,504  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:01:28,787  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:01:28,788  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:05:10,508  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 820
+2016-09-01 11:05:10,509  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 820
+2016-09-01 11:05:10,510  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 831
+2016-09-01 11:05:10,510  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 831
+2016-09-01 11:05:10,511  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 962
+2016-09-01 11:05:10,511  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 962
+2016-09-01 11:05:10,512  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 972
+2016-09-01 11:05:10,513  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 972
+2016-09-01 11:05:10,514  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1290
+2016-09-01 11:05:10,515  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1290
+2016-09-01 11:05:10,516  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1301
+2016-09-01 11:05:10,516  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1301
+2016-09-01 11:05:10,517  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1480
+2016-09-01 11:05:10,517  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1480
+2016-09-01 11:05:12,387  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:05:12,389  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:05:12,390  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:05:12,397  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:05:12,399  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:05:12,409  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:05:12,423  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:05:12,426  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:05:12,431  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:05:12,432  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:05:12,434  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:05:12,436  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:05:12,438  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:05:12,441  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:05:15,469  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:05:15,469  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:07:01,987  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 830
+2016-09-01 11:07:01,988  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 830
+2016-09-01 11:07:01,988  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 841
+2016-09-01 11:07:01,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 841
+2016-09-01 11:07:01,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 972
+2016-09-01 11:07:01,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 972
+2016-09-01 11:07:01,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 982
+2016-09-01 11:07:01,991  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 982
+2016-09-01 11:07:01,991  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1300
+2016-09-01 11:07:01,992  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1300
+2016-09-01 11:07:01,993  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1311
+2016-09-01 11:07:01,993  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1311
+2016-09-01 11:07:01,994  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1977
+2016-09-01 11:07:01,994  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1977
+2016-09-01 11:07:17,444  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:17,446  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:17,454  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:17,454  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:17,456  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:17,457  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:17,457  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:17,457  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:17,458  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1299
+2016-09-01 11:07:17,458  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1299
+2016-09-01 11:07:17,459  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1310
+2016-09-01 11:07:17,459  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1310
+2016-09-01 11:07:17,459  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1976
+2016-09-01 11:07:17,460  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1976
+2016-09-01 11:07:49,846  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:49,847  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:49,847  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:49,847  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:49,848  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:49,848  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:49,848  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:49,849  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:49,857  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1302
+2016-09-01 11:07:49,861  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1302
+2016-09-01 11:07:49,861  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1313
+2016-09-01 11:07:49,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1313
+2016-09-01 11:07:49,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1979
+2016-09-01 11:07:49,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1979
+2016-09-01 11:07:51,986  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:51,987  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:51,987  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:51,988  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:51,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:51,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:51,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:51,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:51,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1310
+2016-09-01 11:07:51,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1310
+2016-09-01 11:07:51,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1321
+2016-09-01 11:07:51,991  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1321
+2016-09-01 11:07:52,001  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1987
+2016-09-01 11:07:52,002  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1987
+2016-09-01 11:07:56,843  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:56,844  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 829
+2016-09-01 11:07:56,849  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:56,850  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 840
+2016-09-01 11:07:56,855  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:56,856  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 971
+2016-09-01 11:07:56,858  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:56,860  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 981
+2016-09-01 11:07:56,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1309
+2016-09-01 11:07:56,866  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1309
+2016-09-01 11:07:56,867  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1320
+2016-09-01 11:07:56,867  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1320
+2016-09-01 11:07:56,868  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1986
+2016-09-01 11:07:56,869  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1986
+2016-09-01 11:24:21,737  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:21,744  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:22,416  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:22,416  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:22,889 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:23,084 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:23,535  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:23,535  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:23,641 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:24,384  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:24,384  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:24,513  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:24,513  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:24,681 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:24,712 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:46,915  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:46,915  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:47,024  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:47,024  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:47,179 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:47,180 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:48,373  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:48,373  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:48,548  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:48,548  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:48,873 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:48,874 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:51,772  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:51,772  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:51,802 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:51,807  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:51,807  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:51,834 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:56,815  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,815  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:56,851  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,852  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:56,884  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,884  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:56,919  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,919  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:56,953  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,953  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:56,983  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:56,984  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,014  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,014  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,047  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,047  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,075  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,075  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,103  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,103  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,194  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,194  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,222  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,222  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,251  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,251  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,279  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,279  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,306  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,306  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,334  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,334  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,361  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,362  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,390  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,390  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,417  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,417  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,444  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,444  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,472  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,472  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,500  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,500  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,527  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,527  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,555  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,555  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,582  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,582  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,659  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,659  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,687  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,687  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,715  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,715  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,745  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,745  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,812  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,813  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,941  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:57,941  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:57,980 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:57,986 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:57,986 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:57,987 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:57,993 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:57,993 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,033 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,034 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,036 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,037 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,038 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,038 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,038 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,038 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,039 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,039 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,039 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,039 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,041 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,041 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,046 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,047 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,047 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,048 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,049 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,085 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,520  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:58,520  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:58,553 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,554  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:58,554  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:58,584 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:24:58,694  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:24:58,695  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:24:58,767 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:02,747  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:02,747  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:02,785  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:02,785  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:02,821 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:02,821 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:02,841  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:02,841  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:02,965  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:02,965  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:03,433 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:03,434 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:03,772  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:03,772  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:03,946 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:04,636  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:04,636  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:04,811 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:04,962  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:04,962  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:05,145 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:05,145  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:05,145  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:05,204 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:05,395  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:05,395  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:05,885 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:07,235  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:07,235  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:07,315 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:08,089  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:08,089  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:08,122 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:10,678  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:10,678  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:10,739  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:10,739  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:11,068 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:11,069 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:16,648  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:16,648  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:16,680 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:16,682  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:16,683  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:16,712 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:18,019  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:18,019  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:18,094 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:18,140  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:18,140  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:18,214 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:18,447  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:18,449  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:18,697 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:19,141  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:19,141  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:19,232 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:25,011  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:25,011  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:25,098 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:25,537  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:25,538  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:25,591 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:25,779  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:25,779  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:25,843 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:25,893  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:25,893  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:25,972 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:26,029  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:26,029  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:26,091 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:26,220  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:26,220  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:26,276 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:26,960  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:26,960  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:27,071 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:27,691  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:27,691  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:28,287 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:32,394  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:32,396  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:32,742 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:33,079  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:33,079  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:33,173 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:33,743  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:33,744  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:33,812 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:37,089  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:37,089  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:37,172 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:37,820  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:37,820  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:37,874 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:40,755  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:40,755  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:40,784 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:40,785  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:40,785  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:40,810 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:43,063  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:43,063  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:43,107  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:43,107  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:43,272 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:43,275 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:45,069  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:45,070  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:45,199 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:45,884  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:45,884  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:46,010 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:57,636  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:57,636  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:57,692  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:25:57,693  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:25:57,739 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:25:57,739 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:02,962  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:02,962  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:03,034 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:05,036  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:05,036  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:05,079 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:12,079  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:12,079  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:12,111 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:13,443  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:13,443  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:13,520  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:13,520  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:13,613  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:13,613  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:13,893 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:14,038 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:14,040 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:14,553  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:14,556  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:14,595 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:14,596  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:14,596  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:14,623 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:26,681  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:26,681  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:26,711 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:29,761  WARN [main] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:26:29,762  WARN [main] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:26:38,956  WARN [main] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:26:38,956  WARN [main] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:26:39,174  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:26:39,174  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:26:43,229  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:43,229  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:43,411 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:45,706  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:45,706  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:45,772  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   has platform default sourceLevel.
+2016-09-01 11:26:45,772  WARN [ForkJoinPool-2-worker-3] - ScalaProject - Project   runs on platform default installation.
+2016-09-01 11:26:46,538 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:26:46,538 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2016-09-01 11:27:09,155  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:27:09,155  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:05,475  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:28:05,475  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:05,657  WARN [Worker-11] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:28:05,658  WARN [Worker-11] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:06,153  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:28:06,154  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:31,645  WARN [Worker-11] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:28:31,646  WARN [Worker-11] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:43,171  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:28:43,171  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:28:55,864  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:28:55,866  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:28:55,871  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:28:55,871  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:28:55,872  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:28:55,872  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:28:55,873  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:28:55,873  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:28:55,874  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:28:55,874  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:28:55,875  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:28:55,879  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:28:55,880  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:28:55,884  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:28:56,984  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:28:56,984  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 822
+2016-09-01 11:28:56,985  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:28:56,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 833
+2016-09-01 11:28:56,989  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:28:56,990  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 964
+2016-09-01 11:28:56,993  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:28:56,996  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 974
+2016-09-01 11:28:57,004  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:28:57,005  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1292
+2016-09-01 11:28:57,005  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:28:57,005  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1303
+2016-09-01 11:28:57,006  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:28:57,007  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1482
+2016-09-01 11:29:03,357  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:29:03,357  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:29:04,921 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:29:04,921 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:29:04,921 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:29:39,556  WARN [Worker-15] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-01 11:29:39,556  WARN [Worker-15] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-01 11:29:39,763  WARN [Worker-15] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-01 11:29:39,764  WARN [Worker-15] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-01 11:29:40,936  WARN [Worker-21] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-01 11:29:40,936  WARN [Worker-21] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-01 11:29:42,246  WARN [Java indexing] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-01 11:29:42,246  WARN [Java indexing] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-01 11:36:26,242  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:36:26,242  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:36:29,361 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:36:29,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:36:29,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:37:15,350  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:37:15,353  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:37:41,912  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:37:41,913  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:38:15,953 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:38:15,953 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:38:15,953 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:38:18,339 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:38:49,501  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:38:49,501  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:39:17,705  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 11:39:19,492  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 11:39:26,394  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:39:26,394  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:39:48,112 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:48,114 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:48,115 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:56,152 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:56,265 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:56,265 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:39:56,265 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:40:01,471  WARN [Worker-21] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:40:01,472  WARN [Worker-21] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:40:52,616  WARN [Worker-4] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:40:52,616  WARN [Worker-4] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:45:14,236  WARN [Worker-11] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:45:14,236  WARN [Worker-11] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:47:42,812 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:47:42,812 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:47:42,812 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:47:52,120  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 11:52:08,648  WARN [Worker-21] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:52:08,648  WARN [Worker-21] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:52:47,648 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:52:47,648 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:52:47,648 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:53:15,462  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:53:15,462  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:53:51,509  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:53:51,509  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:54:17,564  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:54:17,565  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:54:44,633  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:54:44,634  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:54:46,440 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:54:46,440 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:54:46,440 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:55:08,778  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:55:08,778  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:55:54,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:55:54,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:55:54,362 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 11:56:04,601  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:56:04,601  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:56:32,350  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:56:32,350  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 11:57:24,317  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 11:57:24,317  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:04:27,242  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:04:27,242  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:05:27,775  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:05:27,776  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:05:28,694 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:05:28,694 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:05:28,694 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:05:35,814  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:05:35,815  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:05:40,698  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:05:40,698  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:05:51,554  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:05:51,554  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:06:19,562  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:06:19,562  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:06:20,771 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:06:20,771 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:06:20,771 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:07:53,120  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:07:53,121  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:08:29,368  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:08:29,368  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:08:47,486  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:08:47,486  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:11:34,811  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:11:34,811  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:11:57,300  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:11:57,300  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:12:15,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:12:15,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:12:15,117 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:12:16,828  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:12:16,828  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:12:33,480  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:12:33,480  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:12:52,170  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:12:52,170  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:13:19,379 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:13:19,455 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:13:19,455 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:13:19,455 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:14:03,519  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2541
+2016-09-01 12:14:03,528  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2716
+2016-09-01 12:14:03,528  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2716
+2016-09-01 12:14:03,528  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2686
+2016-09-01 12:14:03,529  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2881
+2016-09-01 12:14:03,529  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2881
+2016-09-01 12:14:03,529  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2728
+2016-09-01 12:14:47,130  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:14:47,130  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:15:59,485  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2557
+2016-09-01 12:16:00,650  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2560
+2016-09-01 12:16:02,324  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2563
+2016-09-01 12:17:24,548 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:17:24,548 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:18:09,324  WARN [Worker-26] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:18:09,324  WARN [Worker-26] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:18:39,292  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:18:39,292  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:19:12,677  WARN [Worker-26] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:19:12,678  WARN [Worker-26] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:20:41,001  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:20:41,001  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:20:50,710 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:20:50,917 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:20:50,917 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:20:50,917 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:20:54,178  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:20:54,178  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:21:16,910  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:21:16,910  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:23:42,190  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:23:42,191  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:23:53,167  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:23:53,167  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:25:00,917  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 12:25:39,518  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:25:39,519  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:25:43,211 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:43,211 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:43,211 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:43,672 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:43,672 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:43,673 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:25:44,191  WARN [Worker-26] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:25:44,191  WARN [Worker-26] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:26:15,586 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:26:15,586 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:26:15,586 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:26:20,446  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:26:20,446  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:26:32,689  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:26:32,692  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:27:10,651 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:10,651 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:10,651 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:22,618  WARN [Worker-27] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:27:22,618  WARN [Worker-27] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:27:44,895  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:27:44,895  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:27:50,782 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:50,782 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:50,782 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:27:53,273  WARN [Worker-29] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:27:53,273  WARN [Worker-29] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:27:58,703  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:27:58,703  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:28:18,028  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:28:18,028  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:28:19,320 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:28:19,321 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:28:19,321 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:28:44,600  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:28:44,600  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:30:21,707  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:30:21,707  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:30:28,797  WARN [Worker-28] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:30:28,798  WARN [Worker-28] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:31:41,407  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:31:41,407  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:32:10,368  WARN [Worker-26] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:32:10,368  WARN [Worker-26] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:34:07,499  WARN [Worker-25] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:34:07,499  WARN [Worker-25] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:45:17,161  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:45:17,161  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:45:27,040  WARN [Worker-29] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:45:27,041  WARN [Worker-29] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:45:39,708  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:45:39,708  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:46:14,203 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 12:46:15,928  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:46:15,928  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:46:20,315  WARN [Worker-28] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:46:20,315  WARN [Worker-28] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:46:38,444  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:46:38,445  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:46:59,848  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:46:59,848  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:48:45,234  WARN [Worker-28] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:48:45,234  WARN [Worker-28] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:48:52,127  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:48:52,127  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:51:27,655  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:51:27,655  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:51:50,654  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:51:50,654  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:52:25,106  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:52:25,106  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:54:08,600  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:54:08,600  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 12:54:37,349  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 12:58:48,739  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 12:58:48,739  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:01:52,894  WARN [Worker-35] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:01:52,894  WARN [Worker-35] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:02:25,696  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:02:25,696  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:02:26,978 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:02:26,978 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:02:26,978 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:02:52,993  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:02:52,993  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:05:03,796  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:05:03,796  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:06:08,916  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:06:08,916  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:06:41,540  WARN [Worker-34] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:06:41,541  WARN [Worker-34] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:07:46,159  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:07:46,159  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:08:33,528  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:08:33,528  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:09:14,562  WARN [Worker-35] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:09:14,562  WARN [Worker-35] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:10:25,502  WARN [Worker-32] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:10:25,502  WARN [Worker-32] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:10:58,979  WARN [Worker-35] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:10:58,979  WARN [Worker-35] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:11:13,452  WARN [Worker-34] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:11:13,452  WARN [Worker-34] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:11:55,078  WARN [Worker-22] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:11:55,078  WARN [Worker-22] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:13:18,229  WARN [Worker-11] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:13:18,229  WARN [Worker-11] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:13:18,348 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:13:18,348 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:13:18,348 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:14:22,117  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:14:22,118  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:17:21,071  WARN [Worker-38] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:17:21,072  WARN [Worker-38] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:17:21,139 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:21,139 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:21,140 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:27,389  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:17:27,389  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:17:31,790 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:31,790 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:31,790 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:17:47,084  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:17:47,085  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:19:00,003  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:19:00,003  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:19:23,442  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:19:23,443  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:20:04,936  WARN [Worker-34] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:20:04,937  WARN [Worker-34] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:20:24,126  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:20:24,126  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:20:50,938  WARN [Worker-12] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 13:20:50,938  WARN [Worker-12] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 13:20:52,582 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:20:52,582 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 13:20:52,582 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:06:35,750 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:06:35,750 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:06:35,751 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:07:46,995  WARN [Worker-45] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:07:46,995  WARN [Worker-45] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:08:36,956  WARN [Worker-46] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:08:36,956  WARN [Worker-46] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:09:01,623  WARN [Worker-38] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:09:01,623  WARN [Worker-38] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:09:02,602 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:09:02,602 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:09:02,602 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:09:22,535  WARN [Worker-38] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:09:22,535  WARN [Worker-38] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:10:14,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:10:14,912 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:10:14,913 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:10:14,913 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:10:19,628  WARN [Worker-47] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:10:19,628  WARN [Worker-47] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:10:33,900  WARN [Worker-46] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:10:33,901  WARN [Worker-46] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - Exception in thread "AutoAssist Delay"
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.SWT.error(SWT.java:4533)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.SWT.error(SWT.java:4448)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:255)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.Display.syncExec(Display.java:5406)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.showAssist(ContentAssistant.java:359)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.run(ContentAssistant.java:272)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at java.lang.Thread.run(Thread.java:745)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - Caused by: java.lang.NullPointerException
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at java.util.Arrays.sort(Arrays.java:1438)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.CompletionProposalPopup.sortProposals(CompletionProposalPopup.java:2007)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:568)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:560)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:494)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:487)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener$1.run(ContentAssistant.java:371)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4528)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4146)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+2016-09-01 15:10:57,525 ERROR [AutoAssist Delay] - System.err - at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+2016-09-01 15:10:57,533 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at java.lang.reflect.Method.invoke(Method.java:498)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+2016-09-01 15:10:57,534 ERROR [AutoAssist Delay] - System.err - at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+2016-09-01 15:11:02,161  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:11:02,161  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:11:04,290 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:11:04,290 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:11:04,290 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:11:32,911  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:11:32,911  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:12:06,351  WARN [Worker-46] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:12:06,351  WARN [Worker-46] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:13:43,753  WARN [Worker-47] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:13:43,753  WARN [Worker-47] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:26:39,123  WARN [Worker-48] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:26:39,123  WARN [Worker-48] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:27:58,408  WARN [Worker-48] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:27:58,408  WARN [Worker-48] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:28:16,486  WARN [Worker-47] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:28:16,486  WARN [Worker-47] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:32:30,839  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:32:30,839  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:33:36,234  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 15:33:38,368  WARN [Worker-48] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:33:38,369  WARN [Worker-48] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:35:47,515  WARN [Worker-47] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:35:47,515  WARN [Worker-47] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:36:10,161  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 15:38:28,824  WARN [Worker-52] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:38:28,824  WARN [Worker-52] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:38:44,428  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:38:44,428  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,392 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,394 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,395 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,395 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:08,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:39:14,158  WARN [Worker-52] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:39:14,158  WARN [Worker-52] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:39:38,089  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 15:39:57,349  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 15:40:05,820  WARN [Worker-48] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:40:05,820  WARN [Worker-48] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:40:24,426  WARN [Worker-48] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:40:24,426  WARN [Worker-48] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:56:52,794  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:56:52,794  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:58:31,549 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:58:31,549 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:58:31,549 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:58:32,189  WARN [Worker-54] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:58:32,189  WARN [Worker-54] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:59:26,293  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:59:26,293  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 15:59:27,933 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:59:27,933 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:59:27,933 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 15:59:58,166  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 15:59:58,166  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:01:43,398  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:01:43,399  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:07:41,999 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:07:42,138 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:07:42,138 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:07:42,138 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:56,356 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:56,357 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:56,357 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:57,458  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:09:57,458  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:09:57,628 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:57,628 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:09:57,628 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:02,154 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:02,196 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:02,196 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:02,196 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:11,176  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:10:11,177  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:10:20,469  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2828
+2016-09-01 16:10:20,469  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2836
+2016-09-01 16:10:23,583  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2835
+2016-09-01 16:10:23,583  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 2843
+2016-09-01 16:10:25,623  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:10:25,624  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:10:33,377 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:33,377 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:33,385 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:10:38,002  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:10:38,002  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:12:28,347 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:12:28,347 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:12:28,347 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:12:49,462  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:12:49,463  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:13:02,810 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:13:02,810 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:13:02,810 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:13:53,475  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:13:53,475  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:13:54,402  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:13:54,602  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:14:24,675 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:14:24,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:14:24,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:14:33,498 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:14:33,498 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:15:18,078 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:15:47,300 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:15:47,300 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:15:47,300 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:13,844 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:13,844 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:13,844 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:36,711  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:16:36,711  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:16:38,535 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:38,535 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:38,535 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:55,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:55,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:16:55,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:17:03,763  WARN [Worker-56] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:17:03,763  WARN [Worker-56] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:18:00,716 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:00,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:00,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:16,734 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:16,734 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:16,734 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:18:17,591  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:18:17,592  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:20:08,043 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:08,044 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:08,045 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:10,465 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:10,465 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:10,465 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:20:10,663  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:20:10,665  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:21:36,574  WARN [Worker-56] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:21:36,574  WARN [Worker-56] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:21:37,159 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:21:37,159 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:21:37,159 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:22:15,569  WARN [Worker-58] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:22:15,569  WARN [Worker-58] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:23:58,426  WARN [Worker-58] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:23:58,426  WARN [Worker-58] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:24:00,545 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:00,545 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:00,545 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:05,335  WARN [Worker-55] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:24:05,335  WARN [Worker-55] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:24:23,593  WARN [Worker-56] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:24:23,593  WARN [Worker-56] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:24:30,327 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:30,328 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:30,328 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:32,709 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:32,709 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:32,709 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:24:33,037  WARN [Worker-58] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:24:33,037  WARN [Worker-58] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:25:03,841  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:25:03,841  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:25:09,731  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:26:09,321 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:26:09,321 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:26:09,321 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:26:24,324  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:26:28,361  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:26:28,361  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:27:16,433  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:28:15,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:15,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:15,393 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:33,885 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:33,885 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:33,885 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:35,406  WARN [Worker-57] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:28:35,406  WARN [Worker-57] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:28:35,700 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:35,700 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:28:35,700 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:07,586 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:07,972 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:07,972 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:07,972 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:08,497  WARN [Worker-49] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:29:08,497  WARN [Worker-49] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:29:21,717  WARN [Worker-61] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:29:21,717  WARN [Worker-61] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:29:25,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:25,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:29:25,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:31:08,310  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:31:08,310  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:32:42,332  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:32:42,332  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:33:03,339  WARN [Worker-53] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:33:03,339  WARN [Worker-53] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:36:03,359  WARN [Worker-45] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:36:03,359  WARN [Worker-45] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:36:53,560  WARN [Worker-61] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:36:53,560  WARN [Worker-61] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:37:22,795  WARN [Worker-49] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:37:22,795  WARN [Worker-49] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:37:26,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:37:26,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:37:26,664 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:38:21,237  WARN [Worker-49] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:38:21,247  WARN [Worker-49] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:40:57,340 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:40:57,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:40:57,403 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:40:58,057  WARN [Worker-45] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:40:58,058  WARN [Worker-45] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:45:57,273  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:45:57,277  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:47:42,843  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:47:43,047  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 16:48:08,028  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:48:08,029  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:53:15,385 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:53:15,385 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:53:15,385 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:53:50,200  WARN [Worker-61] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:53:50,200  WARN [Worker-61] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:54:10,876  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:54:10,876  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:54:12,000 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:54:12,004 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:54:12,004 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:54:36,705  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:54:36,706  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:55:09,559  WARN [Worker-61] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:55:09,559  WARN [Worker-61] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:57:17,744  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:57:17,746  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 16:57:44,088 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:57:44,088 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:57:44,088 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 16:57:59,354  WARN [Worker-63] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 16:57:59,354  WARN [Worker-63] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:00:02,572  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:00:02,572  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:04:36,314  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:04:38,212  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:08:40,637  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:08:40,638  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:08:41,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:41,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:41,783 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:49,887 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:49,887 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:49,888 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:52,328 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:52,328 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:52,328 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:08:53,079  WARN [Worker-50] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:08:53,079  WARN [Worker-50] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:09:23,953  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:09:23,953  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:09:44,531  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:09:44,531  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:24:49,737 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:49,737 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:49,737 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:51,343  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:24:51,343  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:24:52,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:52,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:52,486 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:24:55,466  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:24:55,466  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,681 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:25:47,682 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:28:22,308  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:28:22,561  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:29:09,662  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:29:11,505  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:29:33,137  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:29:33,137  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:30:02,413 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:30:02,413 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:30:02,413 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:30:03,279  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:30:03,279  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:30:09,032  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:30:09,032  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:30:16,363  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:30:16,364  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:30:32,782  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:30:32,782  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:31:13,018  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:31:13,019  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:31:18,538 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:31:18,538 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:31:18,538 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:31:21,446  WARN [Worker-60] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:31:21,446  WARN [Worker-60] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:31:41,747  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:31:41,747  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:33:38,518  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:33:59,115 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:33:59,115 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:33:59,115 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:02,751  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:02,751  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:11,301  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:11,301  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:17,600  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:17,601  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:19,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:19,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:19,235 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:30,139  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:30,139  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:38,017  WARN [Worker-62] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:38,017  WARN [Worker-62] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:51,177  WARN [Worker-69] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:34:51,177  WARN [Worker-69] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:34:53,395 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:53,395 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:34:53,395 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:35:04,566  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:35:04,566  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:35:12,234  WARN [Worker-62] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:35:12,234  WARN [Worker-62] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:36:53,968  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:36:53,968  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:36:59,351 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:36:59,351 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:36:59,351 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:37:03,350  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:37:03,350  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:37:16,095  WARN [Worker-69] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:37:16,095  WARN [Worker-69] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:37:56,894 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:37:56,894 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:37:56,894 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:37:57,096  WARN [Worker-62] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:37:57,096  WARN [Worker-62] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:38:10,877  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:38:11,093  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:38:11,306  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-01 17:38:36,834  WARN [Worker-71] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:38:36,834  WARN [Worker-71] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:38:48,044  WARN [Worker-62] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:38:48,044  WARN [Worker-62] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:39:11,957  WARN [Worker-69] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:39:11,957  WARN [Worker-69] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:39:28,120 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:39:28,120 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:39:28,120 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:39:28,683  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:39:28,683  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:39:30,045 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:39:30,045 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:39:30,045 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:40:06,620  WARN [Worker-68] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:40:06,620  WARN [Worker-68] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:40:24,806  WARN [Worker-62] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:40:24,806  WARN [Worker-62] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:40:30,604  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:40:30,604  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:40:37,812  WARN [Worker-71] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:40:37,812  WARN [Worker-71] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:41:03,046 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:03,046 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:03,046 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:03,930  WARN [Worker-65] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:41:03,931  WARN [Worker-65] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:41:28,159  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:41:28,159  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:41:36,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:36,259 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:36,259 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:36,259 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:37,188  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:41:37,188  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 17:41:51,614 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:51,614 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:51,615 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-01 17:41:53,285  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 17:41:53,285  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-01 18:00:55,830  WARN [Worker-67] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-01 18:00:55,830  WARN [Worker-67] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:31:22,002 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-02 09:31:23,952  WARN [main] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:31:23,953  WARN [main] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:31:23,971  WARN [main] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:31:23,972  WARN [main] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:31:30,077 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-02 09:31:30,391 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-02 09:31:37,150  WARN [Worker-0] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-02 09:31:37,157  WARN [Worker-0] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-02 09:35:26,881  WARN [Worker-1] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:35:26,882  WARN [Worker-1] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:35:26,942  WARN [Worker-1] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:35:26,943  WARN [Worker-1] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:35:27,322  WARN [Java indexing] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:35:27,324  WARN [Java indexing] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:35:27,968  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:35:28,174  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:35:28,375  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:35:35,203  WARN [Worker-8] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:35:35,203  WARN [Worker-8] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:36:02,861 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-09-02 09:37:11,525  WARN [Worker-1] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:37:11,526  WARN [Worker-1] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:37:19,445  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:37:19,859  WARN [Worker-15] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:37:19,859  WARN [Worker-15] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:37:23,644  WARN [main] - ScalaProject - Project tp_regression_neurone has platform default sourceLevel.
+2016-09-02 09:37:23,645  WARN [main] - ScalaProject - Project tp_regression_neurone runs on platform default installation.
+2016-09-02 09:37:43,882  WARN [Worker-2] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:37:43,882  WARN [Worker-2] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:38:16,803  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:38:16,804  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:42:27,075  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:42:27,075  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:44:33,872  WARN [Worker-8] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:44:33,872  WARN [Worker-8] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:44:58,962  WARN [Worker-1] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:44:58,963  WARN [Worker-1] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:45:17,031  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:45:17,031  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:45:48,109  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:45:48,109  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:46:31,671  WARN [Worker-16] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:46:31,671  WARN [Worker-16] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:46:38,850  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:46:38,851  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:46:59,219  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:46:59,219  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:48:05,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:48:05,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:48:05,805 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:48:06,614 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:48:06,620 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:48:07,697  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:48:07,697  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:48:39,016  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:48:39,016  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:48:48,177  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:48:48,177  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:49:11,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:11,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:11,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:11,288 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:14,987 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:16,127 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:16,132 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:16,132 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:49:16,336  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:49:16,336  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:49:38,989  WARN [Worker-1] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:49:38,989  WARN [Worker-1] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:49:43,928  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:50:11,870  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:50:11,870  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:50:30,195  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:50:30,195  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:51:12,912  WARN [Worker-16] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:51:12,912  WARN [Worker-16] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:51:32,710 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:51:32,711 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:51:34,632  WARN [Worker-8] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:51:34,632  WARN [Worker-8] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:52:20,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:52:20,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:52:20,881 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:52:22,583  WARN [Worker-8] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:52:22,584  WARN [Worker-8] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:52:57,094 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:52:57,094 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:52:57,094 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 09:53:26,030  WARN [Worker-16] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:53:26,030  WARN [Worker-16] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:58:03,360  WARN [Worker-3] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:58:03,361  WARN [Worker-3] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:58:07,378  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 09:58:21,991  WARN [Worker-20] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:58:21,991  WARN [Worker-20] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:59:05,338  WARN [Worker-21] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:59:05,338  WARN [Worker-21] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 09:59:24,474  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 09:59:24,474  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:01:28,539  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:01:28,539  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:01:35,730  WARN [Worker-16] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:01:35,730  WARN [Worker-16] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:04:08,355  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:04:08,355  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:04:14,503  WARN [Worker-20] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:04:14,503  WARN [Worker-20] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:04:29,053  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:04:29,054  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:05:20,691 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:05:20,691 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:05:20,691 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:06:49,697  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:06:49,710  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:07:05,982  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:07:05,982  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:07:09,417 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:07:09,417 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:07:09,417 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:07:59,724  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 10:08:00,440  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:08:00,441  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:08:52,451  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:08:52,452  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:09:11,776  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-09-02 10:09:50,229  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:09:50,229  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:09:59,417  WARN [Worker-23] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:09:59,417  WARN [Worker-23] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:12:06,149  WARN [Worker-20] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:12:06,149  WARN [Worker-20] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:13:24,429 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:13:24,430 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:13:26,671  WARN [Worker-18] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:13:26,671  WARN [Worker-18] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:14:02,017  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:14:02,018  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:15:15,593 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:15:15,593 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:15:26,639  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:15:26,639  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:16:02,429  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:16:02,429  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:16:21,670  WARN [Worker-19] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:16:21,670  WARN [Worker-19] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:16:34,716 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:16:34,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:16:34,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:16:43,899  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:16:43,899  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:16:45,572 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:16:45,572 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:16:45,572 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:17:21,522  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:17:21,522  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:30:20,910  WARN [Worker-31] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:30:20,910  WARN [Worker-31] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:30:51,096  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:30:51,097  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:31:07,250  WARN [Worker-32] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:31:07,250  WARN [Worker-32] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:33:15,322  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:33:15,335  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:33:16,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:33:16,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:33:16,744 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:33:55,072  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:33:55,072  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:34:30,361  WARN [Worker-10] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:34:30,361  WARN [Worker-10] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:34:38,430  WARN [Worker-29] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:34:38,430  WARN [Worker-29] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:35:12,065  WARN [Worker-33] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:35:12,066  WARN [Worker-33] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:42:07,571  WARN [Worker-24] - ScalaProject - Project tp_kmeans has platform default sourceLevel.
+2016-09-02 10:42:07,572  WARN [Worker-24] - ScalaProject - Project tp_kmeans runs on platform default installation.
+2016-09-02 10:42:08,811 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:42:08,811 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 10:42:08,811 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:35:18,461  WARN [ModalContext] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:35:18,462  WARN [ModalContext] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:35:35,992  WARN [ModalContext] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:35:35,995  WARN [ModalContext] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:35:36,018  WARN [Worker-37] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:35:36,018  WARN [Worker-37] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:35:55,306  WARN [main] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:35:55,306  WARN [main] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:36:01,187  WARN [main] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:36:01,187  WARN [main] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:36:01,337  WARN [Worker-41] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:36:01,337  WARN [Worker-41] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:36:32,352  WARN [Worker-43] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:36:32,352  WARN [Worker-43] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:36:45,568 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:36:45,568 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:36:45,568 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:36:48,537  WARN [Worker-44] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:36:48,537  WARN [Worker-44] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:46:45,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:46:45,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:46:45,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:47:09,385  WARN [Worker-46] - ScalaProject - Project tp_KDDCup1999 has platform default sourceLevel.
+2016-09-02 11:47:09,385  WARN [Worker-46] - ScalaProject - Project tp_KDDCup1999 runs on platform default installation.
+2016-09-02 11:47:10,605 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:47:10,605 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-09-02 11:47:10,606 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException

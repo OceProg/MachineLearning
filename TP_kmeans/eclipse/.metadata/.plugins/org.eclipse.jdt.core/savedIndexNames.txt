@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+/home/user14/Documents/MachineLearning/TP_kmeans/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+2353338947.index
+1384857238.index
+4249888464.index

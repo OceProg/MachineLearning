@@ -1,0 +1,1484 @@
+!SESSION 2016-08-25 13:51:30.475 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 0 2016-08-25 13:55:32.570
+!MESSAGE While loading class "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1", thread "Thread[Worker-2,5,main]" timed out waiting (5002ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.egit.ui_4.4.0.201606070830-r [637]". To avoid deadlock, thread "Thread[Worker-2,5,main]" is proceeding but "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="4.4.0.201606070830-r"; osgi.identity="org.eclipse.egit.ui"; singleton:="true" [id=637] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 13 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2016-08-25 13:55:36.576
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-25 13:55:36.577
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c9fcd6b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76a8992e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2016-08-25 13:55:51.519
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:379)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$4(SetupUIPlugin.java:350)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2016-08-25 13:59:51.696
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:483)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:420)
+	at org.eclipse.swt.widgets.Label.setImage(Label.java:610)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.setTitleImage(TitleAreaDialog.java:674)
+	at org.eclipse.jface.wizard.WizardDialog.hardClose(WizardDialog.java:852)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:798)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:423)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5219)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4553)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4143)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:133)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5219)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4553)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4143)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 13:59:53.817
+!MESSAGE An error occurred while trying to create a file.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ml_tp1/src/ml_tp1_main.scala' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:314)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:301)
+	at org.eclipse.core.internal.resources.File.create(File.java:107)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply$mcV$sp(FileUtils.scala:93)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.util.eclipse.FileUtils$.createFile(FileUtils.scala:84)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:284)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:790)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:423)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5219)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4553)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4143)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:133)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5219)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1340)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4553)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4143)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 1 org.eclipse.core.resources 4 374 2016-08-25 13:59:53.827
+!MESSAGE Resource '/ml_tp1/src/ml_tp1_main.scala' already exists.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.011
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.029
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.031
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.295
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.297
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.298
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:56.780
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:57.047
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:57.606
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:57.606
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:01:57.658
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:02:00.014
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:02:02.954
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:02:09.900
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:02:10.476
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:02:14.943
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:13:39.360
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:13:40.303
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:13:40.304
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:13:43.067
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-25 14:22:18.803
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-25 14:22:18.853
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-25 14:24:03.409
+!MESSAGE Timeout while resolving hyperlink in /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/ml_tp1_main.scala at: offset: 186, length: 0
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:19.078
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:25.206
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:46.284
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:49.908
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:51.639
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:25:59.939
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:00.209
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:04.661
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:08.005
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:08.006
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:08.149
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:08.149
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:08.149
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:26:39.704
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:09.825
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:18.442
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:19.456
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:19.496
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:22.092
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:27:22.132
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:29:13.072
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:29:21.121
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:31:17.449
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:44:56.351
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:00.009
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:02.525
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:08.562
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:10.566
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:48.655
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:51.528
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 14:45:59.173
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:04:21.111
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:04:34.876
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:04:34.877
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:05:01.559
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:05:13.131
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-25 15:06:18.338
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-25 15:32:17.910
+!MESSAGE Timeout while resolving hyperlink in /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/ml_tp1_main.scala at: offset: 875, length: 0
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-08-25 16:06:29.103
+!MESSAGE File not found: '/ml_tp1/src/printToFile/scala.scala'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1190)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:652)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.org$scalaide$core$internal$jdt$model$ScalaSourceFile$$super$getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaCompilationUnit$class.lastSourceMap(ScalaCompilationUnit.scala:79)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.lastSourceMap(ScalaSourceFile.scala:66)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$1.apply(TaskManager.scala:48)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$1.apply(TaskManager.scala:47)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:46)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:128)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:110)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.104
+!MESSAGE File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+
+!ENTRY org.eclipse.core.resources 4 2 2016-08-25 16:06:29.111
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:46)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:128)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:110)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.111
+!MESSAGE File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.111
+!MESSAGE File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+
+!ENTRY org.eclipse.core.resources 4 75 2016-08-25 16:06:29.147
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.scala-ide.sdt.core 4 75 2016-08-25 16:06:29.147
+!MESSAGE Errors running builder 'Scala Builder' on project 'ml_tp1'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1$$anonfun$apply$2.apply(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$$anonfun$updateTasks$1.apply(TaskManager.scala:46)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:128)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:110)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.147
+!MESSAGE File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.147
+!MESSAGE File not found: /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/printToFile/scala.scala.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-08-25 16:06:29.329
+!MESSAGE File not found: '/ml_tp1/src/printToFile/scala.scala'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ml_tp1/src/printToFile/scala.scala' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1190)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:652)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.org$scalaide$core$internal$jdt$model$ScalaSourceFile$$super$getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile$$anonfun$getContents$2.apply(ScalaSourceFile.scala:149)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:103)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.getContents(ScalaSourceFile.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaCompilationUnit$class.lastSourceMap(ScalaCompilationUnit.scala:79)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.lastSourceMap(ScalaSourceFile.scala:66)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$filesDeleted$2.apply(ScalaPresentationCompiler.scala:294)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$filesDeleted$2.apply(ScalaPresentationCompiler.scala:294)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+	at scala.collection.immutable.List.map(List.scala:285)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.filesDeleted(ScalaPresentationCompiler.scala:294)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8$$anonfun$apply$9.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8$$anonfun$apply$9.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8.apply(ScalaPlugin.scala:332)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6$$anonfun$apply$8.apply(ScalaPlugin.scala:330)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6.apply(ScalaPlugin.scala:330)
+	at org.scalaide.core.internal.ScalaPlugin$$anonfun$elementChanged$6.apply(ScalaPlugin.scala:328)
+	at scala.collection.immutable.Map$Map1.foreach(Map.scala:116)
+	at org.scalaide.core.internal.ScalaPlugin.elementChanged(ScalaPlugin.scala:328)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-08-25 16:06:29.329
+!MESSAGE Resource '/ml_tp1/src/printToFile/scala.scala' does not exist.
+!SESSION 2016-08-26 12:16:49.932 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2016-08-26 12:33:08.347
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-26 12:33:08.347
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78744eb2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17533e33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2016-08-26 12:33:39.289
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:379)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$4(SetupUIPlugin.java:350)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 12:35:35.582
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+	at scala.Option$WithFilter.flatMap(Option.scala:208)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.org$scalaide$debug$internal$editor$TextHoverFactory$$anon$$super$getHoverInfo2(TextHoverFactory.scala:53)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2$$anonfun$apply$5.apply(TextHoverFactory.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:51)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 12:37:16.980
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+	at scala.Option$WithFilter.flatMap(Option.scala:208)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.org$scalaide$debug$internal$editor$TextHoverFactory$$anon$$super$getHoverInfo2(TextHoverFactory.scala:53)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2$$anonfun$apply$5.apply(TextHoverFactory.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:51)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 12:40:17.411
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:227)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3$$anonfun$9.apply(ScalaHoverImpl.scala:226)
+	at scala.Option$WithFilter.flatMap(Option.scala:208)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.docComment$1(ScalaHoverImpl.scala:205)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:238)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1$$anonfun$apply$3.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:103)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:101)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.org$scalaide$debug$internal$editor$TextHoverFactory$$anon$$super$getHoverInfo2(TextHoverFactory.scala:53)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2$$anonfun$apply$5.apply(TextHoverFactory.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:51)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 12:52:22.589
+!MESSAGE Timeout while resolving hyperlink in /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/ml_tp1_main.scala at: offset: 159, length: 0
+!SESSION 2016-08-26 14:36:22.583 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 0 2016-08-26 14:36:39.863
+!MESSAGE While loading class "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1", thread "Thread[Worker-0,5,main]" timed out waiting (5002ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.egit.ui_4.4.0.201606070830-r [637]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.egit.ui.internal.ConfigurationChecker$1$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="4.4.0.201606070830-r"; osgi.identity="org.eclipse.egit.ui"; singleton:="true" [id=637] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 13 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1.run(ConfigurationChecker.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2016-08-26 14:36:42.661
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-26 14:36:42.661
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33c29580,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5482ec0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2016-08-26 14:37:04.823
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:379)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$4(SetupUIPlugin.java:350)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-08-26 14:38:58.496 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2016-08-26 14:39:19.694
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-26 14:39:19.695
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58b453fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13b9dc66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2016-08-26 14:39:41.005
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:379)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$4(SetupUIPlugin.java:350)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 14:42:35.850
+!MESSAGE Timeout while resolving hyperlink in /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/ml_tp1_main.scala at: offset: 1233, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 14:45:52.148
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 14:45:52.171
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 14:45:52.335
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 14:52:54.871
+!MESSAGE Timeout in askOption
+!STACK 0
+java.lang.Throwable
+	at org.scalaide.core.compiler.IScalaPresentationCompiler$Implicits$RichResponse$.getOption$extension(IScalaPresentationCompiler.scala:342)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.org$scalaide$core$internal$compiler$Scaladoc$class$$anonfun$$anonfun$$withFragments$1(ScalaDoc.scala:55)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:61)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1$$anonfun$apply$4.apply(ScalaDoc.scala:60)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:60)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1$$anonfun$apply$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$$anonfun$withSourceFile$1.apply(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:99)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy$$anonfun$internal$1.apply(PresentationCompilerProxy.scala:98)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.internal.jdt.model.ScalaClassFile.withSourceFile(ScalaClassFile.scala:24)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc$$anonfun$1.apply(ScalaDoc.scala:48)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.compiler.Scaladoc$class.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:52)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:444)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler$$anonfun$13.apply(ScalaPresentationCompiler.scala:443)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2016-08-26 15:42:13.635
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4528)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4146)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: java.lang.NullPointerException
+	at java.util.Arrays.sort(Arrays.java:1438)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.sortProposals(CompletionProposalPopup.java:2007)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:568)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:560)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:494)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:487)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener$1.run(ContentAssistant.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 24 more
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-08-26 15:42:31.416
+!MESSAGE Timeout while resolving hyperlink in /home/user14/Documents/MachineLearning/TP1/ml_tp1/src/ml_tp1_main.scala at: offset: 2315, length: 0
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-26 16:11:28.188
+!MESSAGE Throwable during asyncExec
+!STACK 0
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-26 16:11:31.433
+!MESSAGE Throwable during asyncExec
+!STACK 0
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-26 16:11:33.859
+!MESSAGE Throwable during asyncExec
+!STACK 0
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2016-08-26 16:11:36.913
+!MESSAGE Throwable during asyncExec
+!STACK 0
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+
+!ENTRY org.eclipse.ui 4 0 2016-08-26 16:40:46.087
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.jface.text.BadPositionCategoryException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4528)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4146)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: org.eclipse.jface.text.BadPositionCategoryException
+	at org.eclipse.jface.text.AbstractDocument.removePositionCategory(AbstractDocument.java:1056)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl$$anon$1.left(ScalaCompletionProposalImpl.scala:197)
+	at org.eclipse.jface.text.link.LinkedModeModel.exit(LinkedModeModel.java:341)
+	at org.eclipse.jface.text.link.LinkedModeUI$3.run(LinkedModeUI.java:1185)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 24 more
+!SESSION 2016-08-26 17:46:21.442 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-08-26 17:47:20.725
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2016-08-26 17:47:32.694
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-26 17:47:32.694
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47127c29,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@435e122,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2016-08-26 17:47:57.738
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:379)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$4(SetupUIPlugin.java:350)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

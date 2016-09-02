@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.scalaide.ui.internal.editor.outline.QuickOutline">
+		<item value="400" key="org.scalaide.ui.internal.editor.outline.ScalaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.scalaide.ui.internal.editor.outline.ScalaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="org.scalaide.ui.internal.editor.outline.ScalaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="300" key="org.scalaide.ui.internal.editor.outline.ScalaOutlineInformationControlDIALOG_HEIGHT"/>
+	</section>
+</section>
